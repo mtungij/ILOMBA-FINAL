@@ -18,7 +18,6 @@ return new class extends Migration
             $table->string('nickname');
             $table->string('address');
             $table->string('gender');
-            $table->string('img');
             $table->string('phone');
             $table->string('status')->default('active');
             $table->timestamps();

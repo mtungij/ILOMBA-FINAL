@@ -14,7 +14,6 @@ class Customer extends Model
         "fname",
         "lname",
         "nickname",
-         "img",
         "address",
         "phone",
         "gender",

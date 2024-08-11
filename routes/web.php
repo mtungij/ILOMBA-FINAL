@@ -18,12 +18,12 @@ Route::view('users', Users::class)
     ->middleware(['auth'])
     ->name('users');
 
-Route::view('admins','livewire.customers')
+Route::view('admins','livewire.pages.admin')
     ->middleware(['auth'])
     ->name('admins');
 
 
-    Route::get('members',Members::class)
+Route::get('members',Members::class)
     ->middleware(['auth'])
     ->name('members');
 
